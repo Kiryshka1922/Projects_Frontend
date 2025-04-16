@@ -1,0 +1,82 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+figure,
+p,
+ol,
+ul {
+    margin: 0;
+}
+
+ol[role="list"],
+ul[role="list"] {
+    list-style: none;
+    padding-inline: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+img {
+    display: block;
+    max-inline-size: 100%;
+}
+
+@font-face {
+    font-family: "Yandex Sans";
+    src: url(../fonts/YandexSansDisplay-Regular.woff) format(woff);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Yandex Sans";
+    src: url(../fonts/YandexSansText-Medium.woff) format(woff);
+    font-weight: 500;
+}
+
+* {
+    font-family: "Yandex Sans";
+    scroll-behavior: smooth;
+}
+
+:root {
+    --item-number: "1";
+}
+
+@import "base/variables.scss";
+
+.container {
+    padding: 0 9.45%;
+    background-color: $black-color;
+}
+
+.counter-section {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter {
+    font-size: 2rem;
+    text-align: center;
+}
+
+@import "blocks/introduction";
+@import "blocks/button";
+@import "blocks/meetup-info";
+@import "blocks/quetions";
+@import "blocks/sheldue";
+@import "blocks/setarticles";
+@import "blocks/Registration";
+@import "blocks/pageup";
+@import "blocks/Location";
+@import "blocks/slider";

@@ -1,0 +1,83 @@
+.container-slider{
+    background-color: $black-color;
+    padding-bottom: 80px;
+    // padding: 0 132px;
+    h4{
+        color: #fff;
+        font-size: 64px;
+        font-weight: 500;
+        line-height: 64px;
+        margin-bottom: 64px;
+    }
+    p{
+        margin-bottom: 94px;
+        color: #FFF;
+        width: 800px;
+        font-family: "GT Walsheim Pro";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+}
+.swiper-slide {
+    width: 800px;
+    height: 564px;
+    img{
+        border-radius: 24px;
+        width: 800px;
+        height: 564px;
+        object-fit: cover;
+    }
+
+}
+.swiper-wrapper_2{
+    img{
+        width: 100%;
+        height: 100%;
+    }
+
+}
+.control{
+    padding: 0;
+    display: flex;
+    gap: 24px;
+    // position: absolute;
+    top: -80px;
+    right: 56px;
+    li{
+        padding: 0;
+        list-style-type: none;
+        .button-slider{
+            display: flex;
+            width: 32px;
+            height: 32px;
+            padding: 4px 6px;
+            justify-content: center;
+            align-items: center;
+            background-color: #fff;
+            transition: all 0.7s ease-in;
+            border-radius: 100%;
+            &:hover{
+                background-color: $yellow-color;
+            }
+        }
+    }
+}
+.slider-title{
+    position: relative;
+    padding: 0 136px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+.button-for-two_slider{
+    position: absolute;
+    right: 136px;
+    top: 95px;
+}
+.swiper_2{
+    overflow: hidden;
+    padding: 0 14px 114px 0;
+}

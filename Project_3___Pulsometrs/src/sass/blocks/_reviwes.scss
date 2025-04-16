@@ -1,0 +1,39 @@
+.reviwes{
+    &_title{
+        margin-bottom: 60px;
+    }
+    &__item{
+        display: flex;
+        img{
+            width: 169px;
+            height: 169px;
+            object-fit: cover;
+            margin-right: 60px;
+        }
+    }
+    &__wrapper{
+        display: flex;
+        flex-direction: column;
+        row-gap: 60px;
+    }
+    &__descr{
+        h3{
+            font-size: 18px;
+            line-height: 18px;
+            color:#0D0D0D ;
+            font-weight: 700;
+        }
+        &__maraphons{
+            font-size: 14px;
+            color: #646464;
+            font-weight: medium;
+        }
+        p{
+            font-size: 16px;
+            color: #0D0D0D;
+            line-height: 24px;
+            font-weight: light;
+            margin-top: 10px;
+        }
+    }
+}

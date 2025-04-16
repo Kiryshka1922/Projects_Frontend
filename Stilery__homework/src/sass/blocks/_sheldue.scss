@@ -1,0 +1,131 @@
+.sheldue{
+    padding-bottom:160px ;
+    background-color: $black-color;
+    .padding-different{
+        padding: 120px 104px;
+    }
+    .sheldue__wrapper{
+        display: flex;
+        flex-direction: column;
+        row-gap: 16px;
+        &__item:nth-child(4n+1) {
+            background: $yellow-color;   
+        }
+        &__item{
+            &:hover{
+                background-color: #d3bb05;
+                border: 3px solid $black-color;
+                box-shadow: 10px 5px 5px rgb(174, 163, 66);
+            }
+            .first{
+    
+                color: #fff;
+                
+            }
+            transition: background-color 0.7s ease-in;
+            padding: 32px 40px 32px 32px;
+            display: flex;
+            background-color: #fff;
+            border-radius: 24px;
+            
+            &__time{
+                margin-right: 160px;
+                color: #D1D1E3;
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 48px;
+                letter-spacing: -0.48px;
+            }
+            &__info{
+                margin-right: 40px;
+                &__title{
+                    max-width: 77%;
+                    color: $black-color;
+                    font-size: 24px;
+                    font-weight: 500;
+                    line-height: 24px;
+                    margin-bottom: 16px;
+                    &.first{
+                        font-size: 20px;     
+                        font-weight: 400;
+                    }
+                }
+                &__descr{
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: -0.16px;
+                    opacity: 0.5;
+                }
+                &__descr_1{
+                    display: flex;
+                }
+                &__name{
+                    display: flex;
+                    flex-direction: column;
+                    span{
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 24px;
+                        letter-spacing: -0.16px;
+                    }
+                    &__specialist{
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        letter-spacing: -0.16px;
+                        opacity: 0.5;
+                    }
+                }
+                .last{
+                    font-size: 20px;
+                    font-weight: 400;
+                    line-height: 24px;
+                    letter-spacing: -0.2px;
+                    max-width: 100%;
+                }
+                .first{
+                    color: $black-color;
+                    img{
+                        margin-right: 16px;
+                        object-fit: cover;
+                        width: 40px;
+                        height: 40px;
+                        border-radius: 8px;
+                    }
+                }
+            }
+            &__person{
+                position: relative;
+                display: flex;
+                img{
+                    // display: block;
+                    border-radius: 8px;
+                    width: 64px;
+                    height: 64px;
+                    object-fit: cover;
+                }
+                &__promo{
+                    margin-left: 16px;
+                    span{
+                        font-size: 16px;
+                        font-weight: 500;
+                        line-height: 24px;
+                        letter-spacing: -0.16px;
+                    }
+                    &__descr{
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        letter-spacing: -0.16px;
+                        opacity: 0.5;
+                    }
+                    display: flex;
+                    flex-direction: column;
+                    // position: absolute;
+                }
+            }
+
+        }
+    }
+}
